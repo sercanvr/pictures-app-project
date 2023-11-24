@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: white;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  text-shadow: 0px 0px 25px rgba(247, 223, 29, 0.88);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .6;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.imageDiv {
+  margin: 15px 25%;
+}
+
+.imageDiv img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.imageDiv img:hover {
+  opacity: .9;
+}
+
+.loading img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
